@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Box<T : Any> {
+class Box<T> {
     
     typealias Listener = (T) -> Void
     
